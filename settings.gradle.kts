@@ -1,3 +1,5 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -13,4 +15,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "AniFact"
-include ':app'
+include(":app")
